@@ -13,7 +13,8 @@ from D3PDMakerCoreComps.D3PDObject  import make_SG_D3PDObject
 from D3PDMakerConfig.D3PDMakerFlags import D3PDMakerFlags
 import D3PDMakerCoreComps
 import MissingETD3PDMaker
-from MissingETD3PDMaker.MissingETD3PDMakerFlags import MissingETD3PDMakerFlags
+from MissingETD3PDMaker.MissingETD3PDMakerFlags import MissingETD3PDMakerFlags, _sgkey_prop
+
 
 
 MissingETD3PDObject = make_SG_D3PDObject ('xAOD::MissingETContainer_v1',
